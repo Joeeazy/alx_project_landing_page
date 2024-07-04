@@ -34,8 +34,8 @@ export default {
         page: "#fcfcff",
       },
       backgroundImage: {
-        banner: "url('/public/img/banner/bg.png')",
-        faq: "url('/public/img/faq/bg.svg')",
+        banner: "url('/img/banner/bg.png')",
+        faq: "url('/img/faq/bg.svg')",
       },
       backgroundSize: {
         auto: "auto",

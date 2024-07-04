@@ -1,23 +1,23 @@
 // images
-import Logo from "../public/img/header/logo.svg";
-import ResistanceImg from "../public/img/workouts/resistance.png";
-import BoxingImg from "../public/img/workouts/boxing.png";
-import BodyPumpImg from "../public/img/workouts/body-pump.png";
-import YogaImg from "../public/img/workouts/yoga.png";
-import FullBodyImg from "../public/img/workouts/full-body.png";
-import FitnessImg from "../public/img/workouts/fitness.png";
-import BattleRopeImg from "../public/img/workouts/battle-rope.png";
-import CommunityImg1 from "../public/img/community/img1.png";
-import CommunityImg2 from "../public/img/community/img2.png";
-import CommunityImg3 from "../public/img/community/img3.png";
-import CommunityImg4 from "../public/img/community/img4.png";
-import JoinImg from "../public/img/join/woman.png";
+import Logo from "/img/header/logo.svg";
+import ResistanceImg from "/img/workouts/resistance.png";
+import BoxingImg from "/img/workouts/boxing.png";
+import BodyPumpImg from "/img/workouts/body-pump.png";
+import YogaImg from "/img/workouts/yoga.png";
+import FullBodyImg from "/img/workouts/full-body.png";
+import FitnessImg from "/img/workouts/fitness.png";
+import BattleRopeImg from "/img/workouts/battle-rope.png";
+import CommunityImg1 from "/img/community/img1.png";
+import CommunityImg2 from "/img/community/img2.png";
+import CommunityImg3 from "/img/community/img3.png";
+import CommunityImg4 from "/img/community/img4.png";
+import JoinImg from "/img/join/woman.png";
 // icons
-import UsersIcn from "../public/img/about/icons/users-icn.svg";
-import CalendarIcn from "../public/img/workouts/icons/calendar.svg";
-import PriceIcn from "../public/img/pricing/icons/price.svg";
-import CommunityIcn from "../public/img/community/icons/community-icn.svg";
-import QuestionMarkIcn from "../public/img/faq/icons/question-mark.svg";
+import UsersIcn from "/img/about/icons/users-icn.svg";
+import CalendarIcn from "/img/workouts/icons/calendar.svg";
+import PriceIcn from "/img/pricing/icons/price.svg";
+import CommunityIcn from "/img/community/icons/community-icn.svg";
+import QuestionMarkIcn from "/img/faq/icons/question-mark.svg";
 
 export const header = {
   logo: Logo,
@@ -58,13 +58,14 @@ export const workouts = {
   title: "Training programs",
   programs: [
     {
-      image: ResistanceImg,
-      name: "Resistance",
-    },
-    {
       image: BoxingImg,
       name: "Boxing",
     },
+    {
+      image: ResistanceImg,
+      name: "Resistance",
+    },
+
     {
       image: BodyPumpImg,
       name: "Body Pump",

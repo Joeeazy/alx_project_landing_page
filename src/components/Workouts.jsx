@@ -1,5 +1,28 @@
 import React from "react";
+// import contents
+import { workouts } from "../constants";
+
+//import components
+import WorkoutSlider from "./WorkoutSlider";
 
 export default function Workouts() {
-  return <div>Workouts</div>;
+  const { title, icon } = workouts;
+  return (
+    <section className=" section">
+      <div
+        className="section-title-group max-w-[540px] mx-auto px-4 lg:px-0"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <img src={icon} alt=" workouts icon " />
+        <h2 className=" h2 section-title">
+          {title} <span className="text-primary-200">.</span>
+        </h2>
+      </div>
+      {/* {slider section} */}
+      <div data-aos="fade-up" data-aos-delay="300">
+        <WorkoutSlider />
+      </div>
+    </section>
+  );
 }
