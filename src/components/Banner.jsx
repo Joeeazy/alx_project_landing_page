@@ -1,5 +1,6 @@
 import React from "react";
 import { banner } from "../constants";
+import NavMobile from "./NavMobile";
 export default function Banner() {
   //destructrure banner data
   const { titlePart1, titlePart2, subtitle, textBtn } = banner;
@@ -37,9 +38,7 @@ export default function Banner() {
             className="bg-blue-300 w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1"
             data-aos="fade-right"
             data-aos-delay="900"
-          >
-            Image
-          </div>
+          ></div>
         </div>
       </div>
     </section>
