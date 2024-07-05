@@ -25,11 +25,11 @@ function App() {
       <About />
       <Workouts />
       <Pricing />
-      {/* <Community />
+      <Community />
       <Faq />
-      <Join /> */}
-      <Footer />
-      {/* <div className="h-[4000px]"></div> */}
+      <Join />
+      {/* <Footer /> */}
+      <div className="h-[4000px]"></div>
     </div>
   );
 }
