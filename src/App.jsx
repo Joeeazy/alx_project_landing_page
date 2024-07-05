@@ -28,8 +28,8 @@ function App() {
       <Community />
       <Faq />
       <Join />
-      {/* <Footer /> */}
-      <div className="h-[4000px]"></div>
+      <Footer />
+      {/* <div className="h-[4000px]"></div> */}
     </div>
   );
 }
